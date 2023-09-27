@@ -59,6 +59,47 @@ import loader from "./loadergif.gif";
 import errorgif from "./error.gif";
 import transfer from "./transfer.gif";
 import transferEther from "./ethereTransfer.gif";
+import NFT1 from "./NFT1.jpg";
+import NFT2 from "./NFT2.jpg";
+import NFT3 from "./NFT3.jpg";
+import NFT4 from "./NFT4.jpg";
+import NFT5 from "./NFT5.jpg";
+import NFT6 from "./NFT6.jpg";
+import NFT7 from "./NFT7.jpg";
+import NFT8 from "./NFT8.jpg";
+import NFT9 from "./NFT9.jpg";
+import NFT10 from "./NFT10.jpg";
+import NFT11 from "./NFT11.jpg";
+import NFT12 from "./NFT12.jpg";
+import NFT13 from "./NFT13.jpg";
+import NFT14 from "./NFT14.jpg";
+import NFT15 from "./NFT15.jpg";
+import NFT16 from "./NFT16.jpg";
+import NFT17 from "./NFT17.jpg";
+import NFT18 from "./NFT18.jpg";
+import NFT19 from "./NFT19.jpg";
+import NFT20 from "./NFT20.jpg";
+import NFT21 from "./NFT21.jpg";
+import NFT22 from "./NFT22.jpg";
+import NFT23 from "./NFT23.jpg";
+import NFT24 from "./NFT24.jpg";
+import NFT25 from "./NFT25.jpg";
+import NFT26 from "./NFT26.jpg";
+import NFT27 from "./NFT27.jpg";
+import NFT28 from "./NFT28.jpg";
+import NFT29 from "./NFT29.jpg";
+import NFT30 from "./NFT30.jpg";
+import NFT31 from "./NFT31.jpg";
+import NFT32 from "./NFT32.jpg";
+import NFT33 from "./NFT33.jpg";
+import NFT34 from "./NFT34.jpg";
+import NFT35 from "./NFT35.jpg";
+import NFT36 from "./NFT36.jpg";
+import NFT37 from "./NFT37.jpg";
+import NFT38 from "./NFT38.jpg";
+import NFT39 from "./NFT39.jpg";
+import NFT40 from "./NFT40.jpg";
+
 
 export default {
   hero2,
@@ -122,4 +163,44 @@ export default {
   errorgif,
   transfer,
   transferEther,
+  NFT1,
+  NFT2,
+  NFT3,
+  NFT4,
+  NFT5,
+  NFT6,
+  NFT7,
+  NFT8,
+  NFT9,
+  NFT10,
+  NFT11,
+  NFT12,
+  NFT13,
+  NFT14,
+  NFT15,
+  NFT16,
+  NFT17,
+  NFT18,
+  NFT19,
+  NFT20,
+  NFT21,
+  NFT22,
+  NFT23,
+  NFT24,
+  NFT25,
+  NFT26,
+  NFT27,
+  NFT28,
+  NFT29,
+  NFT30,
+  NFT31,
+  NFT32,
+  NFT33,
+  NFT34,
+  NFT35,
+  NFT36,
+  NFT37,
+  NFT38,
+  NFT39,
+  NFT40,
 };

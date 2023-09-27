@@ -11,6 +11,7 @@ import images from "../img";
 
 //SMART CONTRACT IMPORT
 import { NFTMarketplaceContext } from "../Context/NFTMarketplaceContext";
+import collection from "./collection";
 
 const searchPage = () => {
   const { fetchNFTs, setError, currentAccount } = useContext(
@@ -58,16 +59,22 @@ const searchPage = () => {
       setNfts(nftsCopy);
     }
   };
+  
 
   const collectionArray = [
-      images.nft_image_1,
-      images.nft_image_2,
-      images.nft_image_3,
-      images.nft_image_1,
-      images.nft_image_2,
-      images.nft_image_3,
-      images.nft_image_1,
-      images.nft_image_2,
+    require('../img/NFT1.jpg'),
+    require('../img/NFT2.jpg'),
+    require('../img/NFT3.jpg'),
+    require('../img/NFT4.jpg'),
+    require('../img/NFT5.jpg'),
+    require('../img/NFT6.jpg'),
+    require('../img/NFT7.jpg'),
+    require('../img/NFT8.jpg'),
+    require('../img/NFT9.jpg'),
+    require('../img/NFT10.jpg'),
+    require('../img/NFT11.jpg'),
+    require('../img/NFT13.jpg'),
+    require('../img/NFT14.jpg'),
   ];
   return (
     <div className={Style.searchPage}>
@@ -77,7 +84,7 @@ const searchPage = () => {
         onClearSearch={onClearSearch}
       />
       <Filter />
-      {nfts.length == 0 ? <Loader /> : <NFTCardTwo NFTData={nfts} />}
+      {nfts.length == 2 ? <Loader /> : <NFTCardTwo NFTData={collectionArray} />}
       <Slider />
       <Brand />
     </div>
